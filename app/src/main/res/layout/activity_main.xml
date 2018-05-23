@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="co.edu.unibague.tercerproyecto.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnCreateActivity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/create" />
+
+        <Button
+            android:id="@+id/btnFindActivity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/find" />
+
+        <Button
+            android:id="@+id/btnList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/list2" />
+
+        <Button
+            android:id="@+id/btnUpdateActivity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/update" />
+
+        <Button
+            android:id="@+id/btnDeleteActivity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/delete" />
+
+        <Button
+            android:id="@+id/btnDeleteAllActivity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/delete_all_label" />
+
+        <Button
+            android:id="@+id/btnSearch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/search_activity" />
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/calc" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="co.edu.unibague.tercerproyecto">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activities.SaveActivity" />
+        <activity android:name=".activities.FindActivity" />
+        <activity android:name=".activities.UpdateActivity" />
+        <activity android:name=".activities.DeleteActivity" />
+        <activity android:name=".activities.DeleteAllActivity" />
+        <activity android:name=".activities.ListActivity" />
+        <activity android:name=".activities.CalcActivity" />
+        <activity android:name=".activities.SearchActivity" />
+    </application>
+
+</manifest>
